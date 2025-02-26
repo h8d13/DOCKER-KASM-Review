@@ -14,11 +14,9 @@ Step 2. Kasm
 Downloaded Kasm put in on my desktop extract. Then simply in terminal same directory > `./install.sh` 
 
 Note: It might throw errors if you haven't installed all the necessary stuff, follow their instructions.
-
-Now we can naviguate to `https://localhost:443` Where we will find a security warning (self-signed) go to Advanced > Proceed. 
-
-At the end of the install script you will get credentials, make sure to save them somewhere safe. 
-
+At the end of the install script you will get credentials, make sure to save them somewhere safe.
+Now we can naviguate to `https://localhost:443` Where we will find a security warning (self-signed) go to ```Advanced > Proceed.```
+ 
 Once you're in you can also use the Access Management to change these or create new users. 
 
 You can chose a workspace which will trigger Kasm update and download of said workspace. 
@@ -41,6 +39,8 @@ Overall, this app seems to do a great job at simplifying something that is compl
 
 
 Step 3. Have fun! 
+
+Can use ` ip a ` to get the machine's IP to access from another machine on the same network. 
 
 This is both a fun way to share but also a seems like there is quite a bit of security, performance options. 
 
