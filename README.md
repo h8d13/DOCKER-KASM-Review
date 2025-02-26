@@ -118,5 +118,14 @@ I guess this is due to non-standard paths or something I'm not 100% sure. It's o
 ---
 That's it folks! 
 
+If you plan to run this on bare metal:
+Go to Infrastructure > Docker Agents
+
+Give the desired amount of RAM/Cores
+Do the same for the VM itself. 
+
+I also recommend going to your host machine settings: Find your power or sleep settings:
+Put it to: when inactive: do nothing. But keep the turn off screen option so you can save some power while keeping your server online.  
+
 The interface feels great to work with, congratz on the UI to the devs because it feels intuitive for such a long subject. I've always loved virtual machines, servers, but this kind of just ties it all together. 
 
