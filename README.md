@@ -73,9 +73,12 @@ When you go back you should now have this new option:
 
 ![profile_launch_option](https://github.com/user-attachments/assets/a6dfd0a8-4af1-4b0e-ad78-2b4c10884e97)
 
+You can test by closing your session and creating a hello folder on the desktop. Also trying to access from another device. Cool!
 
+If you've set up groups you might have to play around with perms as it's designed for sysadmins. 
 
+Edit Group > Persistent Profile > Check
 
-
+---
 
 
