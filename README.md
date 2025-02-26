@@ -14,6 +14,7 @@ Now we can naviguate to `https://localhost:443` Where we will find a security wa
 
 At the end of the install script you will get credentials, make sure to save them somewhere safe. 
 
+Once you're in you can also use the Access Management to change these or create new users. 
 
 
 
