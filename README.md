@@ -100,7 +100,7 @@ apt-get install -y glmark2
 glmark2
 ```
 
-If you're getting consistent high FPS, your set up might be good!
+If you're getting consistent high FPS, your set up might be good! I got 500 fps on an old Nvidia card, not sure how relevant. 
 
 ----
 Working with PyQt
