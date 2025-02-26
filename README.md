@@ -44,6 +44,9 @@ This is both a fun way to share but also a seems like there is quite a bit of se
 
 They also have fun pre-installed images like Doom or RetroArch if you're not that much into dev :)
 
+There is also extensible scripting you can do directly through the interface: For examples see: https://kasmweb.com/docs/latest/how_to/running_as_root.html
+
+
 
 
 
