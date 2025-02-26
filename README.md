@@ -1,4 +1,4 @@
-# KASM-DOCKER-Tutorial-Linux
+# KASM DOCKER COMBO
 
 Step 1. Do not install Dokcer any other way than specified on their official docs. (Snap, flatpaks, etc those will not work because Cocker needs to at lowest seat level.)
 
@@ -45,6 +45,35 @@ This is both a fun way to share but also a seems like there is quite a bit of se
 They also have fun pre-installed images like Doom or RetroArch if you're not that much into dev :)
 
 There is also extensible scripting you can do directly through the interface: For examples see: https://kasmweb.com/docs/latest/how_to/running_as_root.html
+
+
+---
+
+Then the second step you will need is probably some kind of persistence. 
+
+They've procided a friendly example ont he website 
+
+```
+/mnt/kasm_profiles/
+├── admin@kasm.local
+│   ├── chrome
+│   └── firefox
+└── user@kasm.local
+    ├── chrome
+    └── firefox
+```
+
+Useful in dashboard sessions > Delete stop etc 
+
+GO back to work spaces set the profile path.
+
+I simply entered: /mnt/kasm_profiles/{username} 
+
+When you go back you should now have this new option:
+
+![profile_launch_option](https://github.com/user-attachments/assets/a6dfd0a8-4af1-4b0e-ad78-2b4c10884e97)
+
+
 
 
 
