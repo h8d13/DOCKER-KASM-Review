@@ -1,4 +1,4 @@
-# KASM DOCKER COMBO
+# KASM DOCKER COMBO QUICKSTART
 
 Step 1. Do not install Dokcer any other way than specified on their official docs. (Snap, flatpaks, etc those will not work because Cocker needs to at lowest seat level.)
 
@@ -45,7 +45,6 @@ They also have fun pre-installed images like Doom or RetroArch if you're not tha
 
 There is also extensible scripting you can do directly through the interface: For examples see: https://kasmweb.com/docs/latest/how_to/running_as_root.html
 
-
 ---
 
 Then the second step you will need is probably some kind of persistence. 
@@ -79,4 +78,42 @@ If you've set up groups you might have to play around with perms as it's designe
 Edit Group > Persistent Profile > Check
 
 ---
+You can try to add to your docker run config: 
+
+```
+{
+  "hostname": "kasm",
+  "user": "root",
+  "privileged": true
+}
+```
+
+It might not be recommended on larger systems but gives host capabilities. 
+You can also check GPU access by going into chrome: ```chrome://gpu```
+
+Another thing you can do is: 
+```
+apt-get install -y glmark2
+glmark2
+```
+
+If you're getting consistent high FPS, your set up might be good!
+
+----
+Working with PyQt
+
+Had to export the path manually: 
+
+```
+export LD_LIBRARY_PATH=/home/kasm-user/Desktop/Code/REPO/venv/lib/python3.12/site-packages/PyQt5/Qt5/lib:$LD_LIBRARY_PATH
+```
+
+I guess this is due to non-standard paths or something I'm not 100% sure. It's okay but not amazing because of framebuffers using VNC. 
+
+
+
+---
+That's it folks! 
+
+The interface feels great to work with, congratz on the UI to the devs because it feels intuitive for such a long subject. I've always loved virtual machines, servers, but this kind of just ties it all together. 
 
