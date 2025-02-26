@@ -11,6 +11,11 @@ Add source, keyrings, run post install hello world test. You know the drill.
 
 Step 2. Kasm
 
+Here I had to do a couple of things: Manually stop xrdp which was using 3389 (remote default port) which we will need for Kasm. 
+Added my user to KVM, + Modprobe kvm_type (Mine was intel) 
+
+This will also create a Kasm profile which might cause your whole system to have to restart (I guess the window manager?)
+
 Downloaded Kasm put in on my desktop extract. Then simply in terminal same directory > `./install.sh` 
 
 Note: It might throw errors if you haven't installed all the necessary stuff, follow their instructions.
