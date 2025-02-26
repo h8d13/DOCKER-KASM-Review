@@ -14,14 +14,24 @@ Step 2. Kasm
 Here I had to do a couple of things: Manually stop xrdp which was using 3389 (remote default port) which we will need for Kasm. 
 Added my user to KVM, + Modprobe kvm_type (Mine was intel) 
 
-This will also create a Kasm profile which might cause your whole system to have to restart (I guess the window manager?)
+I'll drop some commands i Used here, might help someone:
+```
+ls -al /dev/kvm
+sudo modprobe kvm_intel
+sudo systemctl stop xrdp
+sudo usermod -aG kvm {user}
+````
+
+
 
 Downloaded Kasm put in on my desktop extract. Then simply in terminal same directory > `./install.sh` 
-
 Note: It might throw errors if you haven't installed all the necessary stuff, follow their instructions.
+
 At the end of the install script you will get credentials, make sure to save them somewhere safe.
+This will also create a Kasm profile which might cause your whole system to have to restart (I guess the window manager?)
+
 Now we can naviguate to `https://localhost:443` Where we will find a security warning (self-signed) go to ```Advanced > Proceed.```
- 
+
 Once you're in you can also use the Access Management to change these or create new users. 
 
 You can chose a workspace which will trigger Kasm update and download of said workspace. 
@@ -32,7 +42,6 @@ They also have a registry section, this let's you access stuff like other Docker
 I decided to try OpenSuse as many have been recommending to me but never had the chance (too much in love with Debian systems.)
 I was suprised at how smooth this felt, I thought that there would be a lot more overhead to running such things in browser. 
 
-
 They also have this neat control panel that has everything you would need for VMs. Has been very well thought-out. 
 Overall, this app seems to do a great job at simplifying something that is complex by default. Which is amazing. 
 
@@ -41,7 +50,6 @@ Overall, this app seems to do a great job at simplifying something that is compl
 ![image](https://github.com/user-attachments/assets/4b43f5d1-9ec2-4bbf-b167-57de0b111f9f)
 
 ![image](https://github.com/user-attachments/assets/a3c3803c-ffce-41f7-86b3-6716091ea590)
-
 
 Step 3. Have fun! 
 
