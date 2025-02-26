@@ -9,6 +9,8 @@ Add source, keyrings, run post install hello world test. You know the drill.
  
 ---
 
+Step 2. Kasm
+
 Downloaded Kasm put in on my desktop extract. Then simply in terminal same directory > `./install.sh` 
 Now we can naviguate to `https://localhost:443` Where we will find a security warning (self-signed) go to Advanced > Proceed. 
 
