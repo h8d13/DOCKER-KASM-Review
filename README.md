@@ -96,6 +96,7 @@ You can try to add to your docker run config:
   "privileged": true
 }
 ```
+I'm guessing here you can also pass a device directly. 
 
 It might not be recommended on larger systems but gives host capabilities. 
 You can also check GPU access by going into chrome: ```chrome://gpu```
