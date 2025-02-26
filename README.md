@@ -68,7 +68,7 @@ Useful in dashboard sessions > Delete stop etc
 
 GO back to work spaces set the profile path.
 
-I simply entered: /mnt/kasm_profiles/{username} 
+I simply entered: ```/mnt/kasm_profiles/{username}``` 
 
 When you go back you should now have this new option:
 
@@ -113,8 +113,6 @@ export LD_LIBRARY_PATH=/home/kasm-user/Desktop/Code/REPO/venv/lib/python3.12/sit
 ```
 
 I guess this is due to non-standard paths or something I'm not 100% sure. It's okay but not amazing because of framebuffers using VNC. 
-
-
 
 ---
 That's it folks! 
