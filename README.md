@@ -31,7 +31,9 @@ Overall, this app seems to do a great job at simplifying something that is compl
 
 ---
 
+![image](https://github.com/user-attachments/assets/4b43f5d1-9ec2-4bbf-b167-57de0b111f9f)
 
+![image](https://github.com/user-attachments/assets/a3c3803c-ffce-41f7-86b3-6716091ea590)
 
 
 
