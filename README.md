@@ -118,8 +118,8 @@ I guess this is due to non-standard paths or something I'm not 100% sure. It's o
 ---
 That's it folks! 
 
-If you plan to run this on bare metal:
-Go to Infrastructure > Docker Agents
+If you plan to run this on bare metal (making a cloud retro or something)
+```Go to Infrastructure > Docker Agents```
 
 Give the desired amount of RAM/Cores
 Do the same for the VM itself. 
