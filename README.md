@@ -18,7 +18,6 @@ At the end of the install script you will get credentials, make sure to save the
 
 Once you're in you can also use the Access Management to change these or create new users. 
 
-
 You can chose a workspace which will trigger Kasm update and download of said workspace. 
 It is interesting to note that Kasm devs directly tell you how much the image will take on disk, which is neat. 
 
@@ -80,5 +79,4 @@ If you've set up groups you might have to play around with perms as it's designe
 Edit Group > Persistent Profile > Check
 
 ---
-
 
