@@ -79,7 +79,7 @@ Even if you delete the session. the data should still be there for the specified
 
 If you've set up groups you might have to play around with perms as it's designed for sysadmins. 
 
-Edit Group > Persistent Profile > Check
+```Edit Group > Persistent Profile > Check```
 
 ---
 You can try to add to your docker run config: 
