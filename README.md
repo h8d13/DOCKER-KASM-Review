@@ -38,5 +38,12 @@ Overall, this app seems to do a great job at simplifying something that is compl
 ![image](https://github.com/user-attachments/assets/a3c3803c-ffce-41f7-86b3-6716091ea590)
 
 
+Step 3. Have fun! 
+
+This is both a fun way to share but also a seems like there is quite a bit of security, performance options. 
+
+They also have fun pre-installed images like Doom or RetroArch if you're not that much into dev :)
+
+
 
 
